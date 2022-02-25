@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/recycling-landing-page/static/css/main.073c9b0a.css",
+    "main.js": "/recycling-landing-page/static/js/main.6c952648.js",
+    "static/js/787.778e3956.chunk.js": "/recycling-landing-page/static/js/787.778e3956.chunk.js",
+    "static/media/logo.svg": "/recycling-landing-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/recycling-landing-page/index.html",
+    "main.073c9b0a.css.map": "/recycling-landing-page/static/css/main.073c9b0a.css.map",
+    "main.6c952648.js.map": "/recycling-landing-page/static/js/main.6c952648.js.map",
+    "787.778e3956.chunk.js.map": "/recycling-landing-page/static/js/787.778e3956.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6c952648.js"
+  ]
+}
