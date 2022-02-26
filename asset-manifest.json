@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/recycling-landing-page/static/css/main.073c9b0a.css",
-    "main.js": "/recycling-landing-page/static/js/main.6cd76c41.js",
-    "static/media/shoes-and-clothing-recycling-illustration-symbol-vector.png": "/recycling-landing-page/static/media/shoes-and-clothing-recycling-illustration-symbol-vector.e19a2896774e465f92a5.png",
-    "static/media/jobs.jpg": "/recycling-landing-page/static/media/jobs.f12f6eae4015a1b78f37.jpg",
-    "static/media/glass.jpg": "/recycling-landing-page/static/media/glass.6ab5de7d3dd262129859.jpg",
-    "static/media/earth-on-fire.jpeg": "/recycling-landing-page/static/media/earth-on-fire.aa3fd302220ea5613aec.jpeg",
-    "index.html": "/recycling-landing-page/index.html",
-    "main.073c9b0a.css.map": "/recycling-landing-page/static/css/main.073c9b0a.css.map",
-    "main.6cd76c41.js.map": "/recycling-landing-page/static/js/main.6cd76c41.js.map"
+    "main.css": "/recyling-landing-page/static/css/main.073c9b0a.css",
+    "main.js": "/recyling-landing-page/static/js/main.dc30670e.js",
+    "static/media/shoes-and-clothing-recycling-illustration-symbol-vector.png": "/recyling-landing-page/static/media/shoes-and-clothing-recycling-illustration-symbol-vector.e19a2896774e465f92a5.png",
+    "static/media/jobs.jpg": "/recyling-landing-page/static/media/jobs.f12f6eae4015a1b78f37.jpg",
+    "static/media/glass.jpg": "/recyling-landing-page/static/media/glass.6ab5de7d3dd262129859.jpg",
+    "static/media/earth-on-fire.jpeg": "/recyling-landing-page/static/media/earth-on-fire.aa3fd302220ea5613aec.jpeg",
+    "index.html": "/recyling-landing-page/index.html",
+    "main.073c9b0a.css.map": "/recyling-landing-page/static/css/main.073c9b0a.css.map",
+    "main.dc30670e.js.map": "/recyling-landing-page/static/js/main.dc30670e.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.6cd76c41.js"
+    "static/js/main.dc30670e.js"
   ]
 }
