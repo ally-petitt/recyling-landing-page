@@ -2,7 +2,7 @@
   "name": "recycling-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ally-petitt.github.io/recycling-landing-page",
+  "homepage": "http://ally-petitt.github.io/recyling-landing-page",
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
