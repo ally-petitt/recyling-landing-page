@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/recyling-landing-page/static/css/main.46bc6eba.css",
-    "main.js": "/recyling-landing-page/static/js/main.fc1af96e.js",
+    "main.js": "/recyling-landing-page/static/js/main.fd5f3ba5.js",
     "static/media/shoes-and-clothing-recycling-illustration-symbol-vector.png": "/recyling-landing-page/static/media/shoes-and-clothing-recycling-illustration-symbol-vector.e19a2896774e465f92a5.png",
     "static/media/jobs.jpg": "/recyling-landing-page/static/media/jobs.f12f6eae4015a1b78f37.jpg",
     "static/media/glass.jpg": "/recyling-landing-page/static/media/glass.6ab5de7d3dd262129859.jpg",
     "static/media/earth-on-fire.jpeg": "/recyling-landing-page/static/media/earth-on-fire.aa3fd302220ea5613aec.jpeg",
     "index.html": "/recyling-landing-page/index.html",
     "main.46bc6eba.css.map": "/recyling-landing-page/static/css/main.46bc6eba.css.map",
-    "main.fc1af96e.js.map": "/recyling-landing-page/static/js/main.fc1af96e.js.map"
+    "main.fd5f3ba5.js.map": "/recyling-landing-page/static/js/main.fd5f3ba5.js.map"
   },
   "entrypoints": [
     "static/css/main.46bc6eba.css",
-    "static/js/main.fc1af96e.js"
+    "static/js/main.fd5f3ba5.js"
   ]
 }
