@@ -76,7 +76,7 @@ function Homepage() {
                     How to Get Started
                 </Typography>
                 <Typography variant="subtitle1">
-                    <Slide left>
+                    <Slide  cascade left>
                     Recycling doesn't have to be complicated.
                     </Slide>
                 </Typography>
