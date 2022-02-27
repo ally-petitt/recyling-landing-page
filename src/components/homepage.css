@@ -9,7 +9,3 @@
 #rotate-left:hover {
     transform: rotate(-20deg);
 }
-
-* > {
-    word-break: normal
-}

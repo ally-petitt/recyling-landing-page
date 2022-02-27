@@ -32,9 +32,9 @@ function Homepage() {
                             Climate Change
                         </Typography>
                         <Typography variant="body1" lineHeight={2}>
-                            <Flip cascade bottom>
+                            <Fade bottom>
                             Landfills are the leading manmade cause of methane emissons. Methane acts as a greenhouse gas that contributes to climate change.
-                            </Flip>
+                            </Fade>
                         </Typography>
                     </Stack>
                 </Grid>
@@ -44,9 +44,9 @@ function Homepage() {
                             Reducing Pollution
                         </Typography>
                         <Typography variant="body1" lineHeight={2}>
-                            <Flip cascade top>
+                            <Fade bottom>
                             Extracting and using raw materials can result in pollution. With recyling, there is less need to extract raw materials, leading to less pollution being created.
-                            </Flip>
+                            </Fade>
                         </Typography>
                     </Stack>
                 </Grid>
@@ -56,9 +56,9 @@ function Homepage() {
                             Create Jobs
                         </Typography>
                         <Typography variant="body1" lineHeight={2}>
-                            <Flip cascade bottom>
+                            <Fade bottom>
                             Recycling involves collecting, sorting, and processing the materials. This creates a variety of new jobs. Examples include sorters, tractor drivers, and managers who oversee the process. 
-                            </Flip>
+                            </Fade>
                         </Typography>
                     </Stack>
                 </Grid>
@@ -76,7 +76,7 @@ function Homepage() {
                     How to Get Started
                 </Typography>
                 <Typography variant="subtitle1">
-                    <Slide left cascade>
+                    <Slide left>
                     Recycling doesn't have to be complicated.
                     </Slide>
                 </Typography>
@@ -85,8 +85,8 @@ function Homepage() {
                     <Box>
                         <Typography variant="h4" color="#0C0051" mb={3}>Glass</Typography>
                         <Typography variant="body1">
-                            <Fade bottom cascade>
-                                Glass used to make salsa jars, iced tea bottles, and other food packages can be recycled. Glass from cookware, storage containers, windows, and most lightbulbs are not able to be recycled.   Here are some options for recycling glass:
+                            <Fade bottom>
+                                Glass used to make salsa jars, iced tea bottles, and other food packages can be recycled. Glass from cookware, storage containers, windows, and most lightbulbs are not able to be recycled. Here are some options for recycling glass:
                                 <br/>
                                 <ul>
                                     <li><u>Recycling bins:</u> dispose of your glass in a curbside recyling bin.</li>
@@ -104,8 +104,8 @@ function Homepage() {
                     <Box>
                         <Typography variant="h4" color="#0C0051" mb={3}>Old Clothes</Typography>
                         <Typography variant="body1">
-                            <Fade bottom cascade>
-                            Everyone goes through old clothes, which is why it is important to recycle them. However,        unlike items that are recycled, old clothes can fill up landfills, negatively affecting the environment. Here are some ways you can recycle them without harming the planet:
+                            <Fade bottom>
+                            Everyone goes through old clothes, which is why it is important to recycle them. However, unlike items that are recycled, old clothes can fill up landfills, negatively affecting the environment. Here are some ways you can recycle them without harming the planet:
                                 <br/>
                                 <ul style={{ textAlign: "left" }}>
                                     <li><u>Donate:</u> this is keeps clothes out of landfills and into the hands of people who will actually use it. It can also help those in need because it will be more affordable.</li>
