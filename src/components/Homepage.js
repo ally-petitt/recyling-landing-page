@@ -5,7 +5,8 @@ import pollution from "../images/pollution.png"
 import jobs from "../images/jobs.jpg"
 import glass from "../images/glass.jpg"
 import clothes from "../images/shoes-and-clothing-recycling-illustration-symbol-vector.png"
-import { bgcolor } from '@mui/system'
+import { Fade, Flip, Slide } from 'react-reveal'
+import "./homepage.css"
 
 function Homepage() {
   return (
@@ -31,7 +32,9 @@ function Homepage() {
                             Climate Change
                         </Typography>
                         <Typography variant="body1" lineHeight={2}>
-                        Landfills are the leading manmade cause of methane emissons. Methane acts as a greenhouse gas that contributes to climate change.
+                            <Flip cascade bottom>
+                            Landfills are the leading manmade cause of methane emissons. Methane acts as a greenhouse gas that contributes to climate change.
+                            </Flip>
                         </Typography>
                     </Stack>
                 </Grid>
@@ -41,7 +44,9 @@ function Homepage() {
                             Reducing Pollution
                         </Typography>
                         <Typography variant="body1" lineHeight={2}>
-                        Extracting and using raw materials can result in pollution. With recyling, there is less need to extract raw materials, leading to less pollution being created.
+                            <Flip cascade top>
+                            Extracting and using raw materials can result in pollution. With recyling, there is less need to extract raw materials, leading to less pollution being created.
+                            </Flip>
                         </Typography>
                     </Stack>
                 </Grid>
@@ -51,14 +56,15 @@ function Homepage() {
                             Create Jobs
                         </Typography>
                         <Typography variant="body1" lineHeight={2}>
-                        Recycling involves collecting, sorting, and processing the materials. This creates a variety of new jobs. Examples include sorters, tractor drivers, and managers who oversee the process. 
+                            <Flip cascade bottom>
+                            Recycling involves collecting, sorting, and processing the materials. This creates a variety of new jobs. Examples include sorters, tractor drivers, and managers who oversee the process. 
+                            </Flip>
                         </Typography>
-                        
                     </Stack>
                 </Grid>
-                <Grid item xs={4}><img src={earth} alt="the earth on fire because of methane gas from landfills" style={{ width: "200px", marginTop: "35px" }}/></Grid>
-                <Grid item xs={4}><img src={pollution} alt="the earth on fire because of methane gas from landfills" style={{ width: "200px", marginTop: "35px" }}/></Grid>
-                <Grid item xs={4}><img src={jobs} alt="the earth on fire because of methane gas from landfills" style={{ width: "200px", marginTop: "35px" }}/></Grid>
+                <Grid item xs={4}><img id="grow" src={earth} alt="the earth on fire because of methane gas from landfills" style={{ width: "200px", marginTop: "35px" }}/></Grid>
+                <Grid item xs={4}><img id="grow" src={pollution} alt="the earth on fire because of methane gas from landfills" style={{ width: "200px", marginTop: "35px" }}/></Grid>
+                <Grid item xs={4}><img id="grow" src={jobs} alt="the earth on fire because of methane gas from landfills" style={{ width: "200px", marginTop: "35px" }}/></Grid>
             </Grid>
         </Container>
 
@@ -70,35 +76,43 @@ function Homepage() {
                     How to Get Started
                 </Typography>
                 <Typography variant="subtitle1">
+                    <Slide left cascade>
                     Recycling doesn't have to be complicated.
+                    </Slide>
                 </Typography>
 
-                <Stack direction="row" spacing={6} mt={3} textAlign="left" alignItems="center">
+                <Stack direction="row" spacing={5} mt={3} textAlign="left" alignItems="center">
                     <Box>
                         <Typography variant="h4" color="#0C0051" mb={3}>Glass</Typography>
-                        <Typography variant="body1">Glass used to make salsa jars, iced tea bottles, and other food packages can be recycled. Glass from cookware, storage containers, windows, and most lightbulbs are not able to be recycled. Here are some options for recycling glass:
-                        <br/>
-                        <ul>
-                            <li><u>Recycling bins:</u> dispose of your glass in a curbside recyling bin.</li>
-                            <li><u>Drop-off centers:</u> any glass containers that you recycle at a drop-off center that have a CRV value can allow you to recieve compensation.</li>
-                            <li><u>Find alternative uses:</u> turn an old jar into a flower vase, use glass bottles as reusable water bottles, use them as storage containers, etc. Be creative. </li>
-                        </ul>
+                        <Typography variant="body1">
+                            <Fade bottom cascade>
+                                Glass used to make salsa jars, iced tea bottles, and other food packages can be recycled. Glass from cookware, storage containers, windows, and most lightbulbs are not able to be recycled.   Here are some options for recycling glass:
+                                <br/>
+                                <ul>
+                                    <li><u>Recycling bins:</u> dispose of your glass in a curbside recyling bin.</li>
+                                    <li><u>Drop-off centers:</u> any glass containers that you recycle at a drop-off center that have a CRV value can allow you to recieve compensation.</li>
+                                    <li><u>Find alternative uses:</u> turn an old jar into a flower vase, use glass bottles as reusable water bottles, use them as storage containers, etc. Be creative. </li>
+                                </ul>
+                            </Fade>
                         </Typography>
                     </Box>
-                    <img src={glass} alt="someone throwing glass in recycling bin" style={{ borderRadius: "50%" }}/>
+                    <img  src={glass} alt="someone throwing glass in recycling bin" style={{ borderRadius: "50%" }}/>
                 </Stack>
 
-                <Stack direction="row" mt={3} spacing={6} textAlign="end" alignItems="center">
-                    <img src={clothes} alt="someone throwing folding clothes" style={{ borderRadius: "20px", maxWidth: "500px" }}/>
+                <Stack direction="row" mt={3} textAlign="end" alignItems="center">
+                    <img id="rotate-left" src={clothes} alt="someone throwing folding clothes" style={{ borderRadius: "20px", maxWidth: "500px" }}/>
                     <Box>
-                        <Typography variant="h4" color="#0C0051" mb={3}>Clothing</Typography>
-                        <Typography variant="body1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat:
-                        <br/>
-                        <ul style={{ textAlign: "left" }}>
-                            <li><u>Recycling bins:</u> dispose of your glass in a curbside recyling bin.</li>
-                            <li><u>Drop-off centers:</u> any glass containers that you recycle at a drop-off center that have a CRV value can allow you to recieve compensation.</li>
-                            <li><u>Find alternative uses:</u> turn an old jar into a flower vase, use glass bottles as reusable water bottles, use them as storage containers, etc. Be creative. </li>
-                        </ul>
+                        <Typography variant="h4" color="#0C0051" mb={3}>Old Clothes</Typography>
+                        <Typography variant="body1">
+                            <Fade bottom cascade>
+                            Everyone goes through old clothes, which is why it is important to recycle them. However,        unlike items that are recycled, old clothes can fill up landfills, negatively affecting the environment. Here are some ways you can recycle them without harming the planet:
+                                <br/>
+                                <ul style={{ textAlign: "left" }}>
+                                    <li><u>Donate:</u> this is keeps clothes out of landfills and into the hands of people who will actually use it. It can also help those in need because it will be more affordable.</li>
+                                    <li><u>Sell:</u> the same reasoning as donating still applies, but instead you earn money.</li>
+                                    <li><u>Reuse:</u> make something out of your old clothing. Many people use old clothes as rags or make diy projects with them. </li>
+                                </ul>
+                            </Fade>
                         </Typography>
                     </Box>
                 </Stack>

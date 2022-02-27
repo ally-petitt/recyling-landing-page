@@ -1,0 +1,15 @@
+#grow, #rotate-left, #rotate-right { 
+	transition: all .2s ease-in-out; 
+}
+
+#grow:hover { 
+    transform: scale(1.2); 
+}
+
+#rotate-left:hover {
+    transform: rotate(-20deg);
+}
+
+* > {
+    word-break: normal
+}
